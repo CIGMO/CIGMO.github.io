@@ -6,8 +6,8 @@ subtitle: The Center for Information Geometric Mechanics and Optimization.
 
 
 profile:
-  align: right
-  image: prof_pic.jpg
+  align: left
+  image: CIGMO-logo.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>555 your office number</p>
