@@ -3,13 +3,13 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-first_name: You
-middle_name: R.
-last_name: Name
+first_name: CIGMO
+middle_name: 
+last_name: 
 contact_note: >
   You can even add a little note about which of these is the best way to reach you.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  The Center for Information Geometric Mechanics and Optimization at Brown University, Georgia Tech, and New York University.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -193,6 +193,20 @@ exclude:
   - README.md
   - readme_preview/
   - vendor
+  # turning off features
+  - _news/announcement_*.md
+  - _pages/blog.md
+  - _posts/
+  - _pages/profiles
+  - _pages/repositories
+  - _pages/blog
+  - _pages/teaching
+  - _pages/projects
+  - _pages/dropdown
+  - _pages/cv
+  - _repositories/
+  - _projects/?_project.md
+  -  assets/jupyter/blog.ipynb
 keep_files:
   - CNAME
   - .nojekyll

@@ -2,7 +2,8 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: The Center for Information Geometric Mechanics and Optimization.
+
 
 profile:
   align: right
