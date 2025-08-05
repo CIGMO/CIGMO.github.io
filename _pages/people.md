@@ -4,7 +4,7 @@ title: people
 permalink: /people/
 description: 
 nav: true
-display_categories: [alumni]
+display_categories: [senior personnel, students and postdocs, alumni]
 horizontal: false
 ---
 <div class="people">
