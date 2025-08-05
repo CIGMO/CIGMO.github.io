@@ -50,11 +50,46 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/al-folio/books/the_godfather/";
+            },},{id: "people-yuri-bazilevs",
+          title: 'Yuri Bazilevs',
+          description: "Co-PI",
+          section: "People",handler: () => {
+              window.location.href = "/al-folio/people/bazilevs_yuri/";
+            },},{id: "people-spencer-bryngelson",
+          title: 'Spencer Bryngelson',
+          description: "Co-PI",
+          section: "People",handler: () => {
+              window.location.href = "/al-folio/people/bryngelson_spencer/";
+            },},{id: "people-jerome-darbon",
+          title: 'Jerome Darbon',
+          description: "Co-PI",
+          section: "People",handler: () => {
+              window.location.href = "/al-folio/people/darbon_jerome/";
+            },},{id: "people-brendan-keith",
+          title: 'Brendan Keith',
+          description: "Director",
+          section: "People",handler: () => {
+              window.location.href = "/al-folio/people/keith_brendan/";
+            },},{id: "people-florian-schäfer",
+          title: 'Florian Schäfer',
+          description: "Co-Director",
+          section: "People",handler: () => {
+              window.location.href = "/al-folio/people/schaefer_florian/";
             },},{id: "people-a-student",
           title: 'A Student',
           description: "CS major",
           section: "People",handler: () => {
               window.location.href = "/al-folio/people/student_example/";
+            },},{id: "people-qi-tang",
+          title: 'Qi Tang',
+          description: "Co-PI",
+          section: "People",handler: () => {
+              window.location.href = "/al-folio/people/tang_qi/";
+            },},{id: "people-molei-tao",
+          title: 'Molei Tao',
+          description: "Co-PI",
+          section: "People",handler: () => {
+              window.location.href = "/al-folio/people/tao_molei/";
             },},{
         id: 'social-email',
         title: 'email',
