@@ -75,11 +75,6 @@ ninja.data = [{
           description: "Co-Director",
           section: "People",handler: () => {
               window.location.href = "/al-folio/people/schaefer_florian/";
-            },},{id: "people-a-student",
-          title: 'A Student',
-          description: "CS major",
-          section: "People",handler: () => {
-              window.location.href = "/al-folio/people/student_example/";
             },},{id: "people-qi-tang",
           title: 'Qi Tang',
           description: "Co-PI",
