@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page_custom
 title: people
 permalink: /people/
 description: 
