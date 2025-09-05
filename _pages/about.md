@@ -28,3 +28,4 @@ latest_posts:
 CIGMO develops a comprehensive numerical treatment of inequality-constrained problems in computational mechanics. 
 It leverages broad a geometric framework known in different communities as Legendre functions, mirror maps, Hessian manifolds, or information geometry.
 It is a collaborative effort by researchers at Brown University, the Courant Institute at New York University, and Georgia Tech.
+CIGMO is funded by the US Department of Energy and the National Nuclear Security Administration under the [PSAAP IV program](https://psaap.llnl.gov/).
