@@ -2,11 +2,12 @@
 layout: page_custom
 title: people
 permalink: /people/
-description: 
+description:
 nav: true
 display_categories: [senior personnel, students and postdocs, alumni]
 horizontal: false
 ---
+
 <div class="people">
 {% if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->
