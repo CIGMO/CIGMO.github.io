@@ -9,7 +9,14 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-people",
+  },{id: "nav-news",
+          title: "news",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/news/";
+          },
+        },{id: "nav-people",
           title: "people",
           description: "",
           section: "Navigation",
@@ -23,7 +30,10 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "people-yuri-bazilevs",
+        },{id: "news-cigmo-seminar-series-1-speaker-rami-masri-brown-university-title-a-priori-error-analysis-of-the-proximal-galerkin-method-date-september-24-2025-time-11-00-12-00-est-abstract-the-proximal-galerkin-pg-method-is-a-finite-element-method-for-solving-variational-problems-with-inequality-constraints-it-has-several-advantages-including-constraint-preserving-approximations-and-mesh-independence-this-talk-presents-the-first-abstract-a-priori-error-analysis-of-the-pg-method-providing-a-general-framework-to-establish-convergence-and-error-estimates-as-applications-of-the-framework-we-demonstrate-optimal-convergence-rates-for-both-the-obstacle-and-signorini-problems-using-various-finite-element-subspaces-location-170-hope-st-room-108-providence-ri-zoom-zoom-link",
+          title: 'CIGMO Seminar Series 1 Speaker: Rami Masri (Brown University) Title: A priori error...',
+          description: "",
+          section: "News",},{id: "people-yuri-bazilevs",
           title: 'Yuri Bazilevs',
           description: "Co-PI",
           section: "People",handler: () => {
@@ -38,11 +48,21 @@ ninja.data = [{
           description: "Co-PI",
           section: "People",handler: () => {
               window.location.href = "/people/darbon_jerome/";
+            },},{id: "people-dohyun-kim",
+          title: 'Dohyun Kim',
+          description: "Postdoctoral Researcher",
+          section: "People",handler: () => {
+              window.location.href = "/people/dohyun_kim/";
             },},{id: "people-brendan-keith",
           title: 'Brendan Keith',
           description: "Director",
           section: "People",handler: () => {
               window.location.href = "/people/keith_brendan/";
+            },},{id: "people-rami-masri",
+          title: 'Rami Masri',
+          description: "Postdoctoral Researcher",
+          section: "People",handler: () => {
+              window.location.href = "/people/rami_masri/";
             },},{id: "people-florian-schäfer",
           title: 'Florian Schäfer',
           description: "Co-Director",
