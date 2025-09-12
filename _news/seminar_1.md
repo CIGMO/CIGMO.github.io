@@ -21,3 +21,4 @@ The proximal Galerkin (PG) method is a finite element method for solving variati
 [170 Hope St., Room 108, Providence, RI](https://maps.app.goo.gl/VYG55GmtZPVYHTMHA).
 
 * **Zoom**: [Zoom Link](https://brown.zoom.us/j/95559249589?pwd=pacFQr8a7fBwbYn8NEdB86cca0VBsA.1)
+* [**Add to Calendar**](/assets/calendar/seminar_1.ics)
