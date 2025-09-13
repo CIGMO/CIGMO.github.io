@@ -6,5 +6,5 @@ affiliation: Georgia Institute of Technology
 importance: 1
 img: assets/img/profile_pictures/bryngelson_spencer.jpg
 category: senior personnel
-redirect:
+redirect: https://comp-physics.group
 ---
