@@ -145,10 +145,10 @@ newsletter:
 collections:
   books:
     output: true
-  news:
-    defaults:
-      layout: post
-    output: true
+  # news:
+    # defaults:
+    #   layout: post
+    output: false
   projects:
     output: true
   people:
@@ -194,6 +194,7 @@ exclude:
   - readme_preview/
   - vendor
   # turning off features
+  - _pages/news.md
   - _news/announcement_*.md
   - _pages/blog.md
   - _posts/
