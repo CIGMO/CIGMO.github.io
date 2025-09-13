@@ -146,9 +146,9 @@ collections:
   books:
     output: true
   # news:
-    # defaults:
-    #   layout: post
-    # output: false
+  # defaults:
+  #   layout: post
+  # output: false
   projects:
     output: true
   people:
