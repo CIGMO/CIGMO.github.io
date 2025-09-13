@@ -1,0 +1,67 @@
+BEGIN:VCALENDAR
+CALSCALE:GREGORIAN
+VERSION:2.0
+X-WR-CALNAME:CIGMO Seminar Series
+METHOD:PUBLISH
+PRODID:-//Apple Inc.//macOS 15.6.1//EN
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+TZNAME:EDT
+TZOFFSETTO:-0400
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+TZNAME:EST
+TZOFFSETTO:-0500
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=America/New_York:20250924T120000
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-APPLE-MAPKIT-HANDLE=CAEStgII2TIa
+ EgntUAO8u+lEQBGEglK0ctlRwCKdAQoNVW5pdGVkIFN0YXRlcxICVVMaDFJob2RlIElzbGFu
+ ZCICUkkqEVByb3ZpZGVuY2UgQ291bnR5MgpQcm92aWRlbmNlOgUwMjkxMkIMQ29sbGVnZSBI
+ aWxsUgdIb3BlIFN0WgMxNzBiEzE3MCBIb3BlIFN0LCBSbSAxMDhyEEJyb3duIFVuaXZlcnNp
+ dHmKAQxDb2xsZWdlIEhpbGwqEzE3MCBIb3BlIFN0LCBSbSAxMDgyCzE3MCBIb3BlIFN0MgZS
+ bSAxMDgyFVByb3ZpZGVuY2UsIFJJICAwMjkxMjINVW5pdGVkIFN0YXRlczg5QABQAVonCiUS
+ EgntUAO8u+lEQBGEglK0ctlRwBjZMiDryOOj+O//uLUBkAMB;X-APPLE-RADIUS=70.58733
+ 250719671;X-APPLE-REFERENCEFRAME=1;X-TITLE="170 Hope St., Room 108, Prov
+ idence, RI":geo:41.826042,-71.397626
+UID:E9E2FD11-2FC6-4B96-A1AC-26C05B67A8EC
+DTSTAMP:20250912T174108Z
+LOCATION:170 Hope St.\, Room 108\, Providence\, RI
+DESCRIPTION:Speaker: Rami Masri (Brown University)\nTitle: A priori erro
+ r analysis of the proximal Galerkin method\n\nAbstract: The proximal Gal
+ erkin (PG) method is a finite element method for solving variational pro
+ blems with inequality constraints. It has several advantages\, including
+  constraint-preserving approximations and mesh independence. This talk p
+ resents the first abstract a priori error analysis of the PG method\, pr
+ oviding a general framework to establish convergence and error estimates
+ . As applications of the framework\, we demonstrate optimal convergence 
+ rates for both the obstacle and Signorini problems using various finite 
+ element subspaces.
+URL;VALUE=URI:https://brown.zoom.us/j/95559249589?pwd=pacFQr8a7fBwbYn8NE
+ dB86cca0VBsA.1
+STATUS:CONFIRMED
+SEQUENCE:0
+X-APPLE-CREATOR-IDENTITY:com.apple.calendar
+SUMMARY:CIGMO Seminar Series
+DTSTART;TZID=America/New_York:20250924T110000
+LAST-MODIFIED:20250912T173817Z
+CREATED:20250912T173817Z
+X-APPLE-CREATOR-TEAM-IDENTITY:0000000000
+BEGIN:VALARM
+UID:AB843BCE-E88D-4673-8C63-C9D39174F5B8
+X-WR-ALARMUID:AB843BCE-E88D-4673-8C63-C9D39174F5B8
+TRIGGER:-PT10M
+DESCRIPTION:This is an event reminder
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+END:VCALENDAR

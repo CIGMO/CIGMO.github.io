@@ -1,9 +1,8 @@
 ---
-layout: about
+layout: about_custom
 title: about
 permalink: /
-subtitle: The Center for Information Geometric Mechanics and Optimization.
-
+# subtitle: The Center for Information Geometric Mechanics and Optimization.
 
 profile:
   align: left
@@ -25,6 +24,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-CIGMO develops a comprehensive numerical treatment of inequality-constrained problems in computational mechanics. 
-It leverages broad a geometric framework known in different communities as Legendre functions, mirror maps, Hessian manifold, or information geometry.
-It is a collaborative effort by researchers at Brown University, Georgia Tech, and the Courant Institute at New York University.
+CIGMO develops a comprehensive numerical treatment of inequality-constrained problems in computational mechanics.
+It leverages broad a geometric framework known in different communities as Legendre functions, mirror maps, Hessian manifolds, or information geometry.
+It is a collaborative effort by researchers at Brown University, the Courant Institute at New York University, and Georgia Tech.
+CIGMO is funded by the US Department of Energy and the National Nuclear Security Administration under the [PSAAP IV program](https://psaap.llnl.gov/).
