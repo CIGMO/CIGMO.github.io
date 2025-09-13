@@ -24,8 +24,9 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-CIGMO researches and develops a comprehensive numerical treatment of inequality-constrained problems in computational mechanics.
-It targets active research areas central to the NNSA mission, including single- and multi-component flows in the high-Mach-number regime and the mechanical response of geometrically complex solids and structures under extreme loading (high strain rates and pressures).
+CIGMO is the Center for Information Geometric Mechanics and Optimization.
+At CIGMO, we research and develop comprehensive numerical treatment of inequality-constrained problems in computational mechanics.
+The center targets active research areas central to the NNSA mission, including single- and multi-component flows in the high-Mach-number regime and the mechanical response of geometrically complex solids and structures under extreme loading (high strain rates and pressures).
 This work provides the missing link between scientific computing and the information geometry of inequality constraints.
 CIGMO is a collaboration among Brown University, the Courant Institute at New York University, and Georgia Tech.
 It is funded by the U.S. Department of Energy and the National Nuclear Security Administration under the [PSAAP IV program](https://psaap.llnl.gov/).
