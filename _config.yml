@@ -148,7 +148,7 @@ collections:
   # news:
     # defaults:
     #   layout: post
-    output: false
+    # output: false
   projects:
     output: true
   people:
