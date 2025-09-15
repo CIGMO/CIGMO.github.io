@@ -23,21 +23,11 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "people-anand-radhakrishnan",
-          title: 'Anand Radhakrishnan',
-          description: "PhD Student",
-          section: "People",handler: () => {
-              window.location.href = "/people/anand_radhakrishnan/";
-            },},{id: "people-yuri-bazilevs",
+        },{id: "people-yuri-bazilevs",
           title: 'Yuri Bazilevs',
           description: "Co-PI",
           section: "People",handler: () => {
               window.location.href = "/people/bazilevs_yuri/";
-            },},{id: "people-benjamin-wilfong",
-          title: 'Benjamin Wilfong',
-          description: "PhD Student",
-          section: "People",handler: () => {
-              window.location.href = "/people/benjamin_wilfong/";
             },},{id: "people-spencer-bryngelson",
           title: 'Spencer Bryngelson',
           description: "Co-PI",
