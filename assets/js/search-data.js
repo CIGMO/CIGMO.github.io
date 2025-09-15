@@ -23,11 +23,21 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "people-yuri-bazilevs",
+        },{id: "people-anand-radhakrishnan",
+          title: 'Anand Radhakrishnan',
+          description: "PhD Student",
+          section: "People",handler: () => {
+              window.location.href = "/people/anand_radhakrishnan/";
+            },},{id: "people-yuri-bazilevs",
           title: 'Yuri Bazilevs',
           description: "Co-PI",
           section: "People",handler: () => {
               window.location.href = "/people/bazilevs_yuri/";
+            },},{id: "people-benjamin-wilfong",
+          title: 'Benjamin Wilfong',
+          description: "PhD Student",
+          section: "People",handler: () => {
+              window.location.href = "/people/benjamin_wilfong/";
             },},{id: "people-spencer-bryngelson",
           title: 'Spencer Bryngelson',
           description: "Co-PI",
@@ -48,6 +58,11 @@ ninja.data = [{
           description: "Director",
           section: "People",handler: () => {
               window.location.href = "/people/keith_brendan/";
+            },},{id: "people-noe-reyes-rivas",
+          title: 'Noe Reyes Rivas',
+          description: "PhD Student",
+          section: "People",handler: () => {
+              window.location.href = "/people/noe_reyes_rivas/";
             },},{id: "people-rami-masri",
           title: 'Rami Masri',
           description: "Postdoctoral Researcher",
