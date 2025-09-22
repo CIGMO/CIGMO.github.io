@@ -25,7 +25,7 @@ latest_posts:
 ---
 
 CIGMO is the Center for Information Geometric Mechanics and Optimization.
-At CIGMO, we research and develop comprehensive numerical treatment of inequality-constrained problems in computational mechanics.
+At CIGMO, we research and develop a comprehensive numerical treatment of inequality-constrained problems in computational mechanics.
 The center targets active research areas central to the NNSA mission, including single- and multi-component flows in the high-Mach-number regime and the mechanical response of geometrically complex solids and structures under extreme loading (high strain rates and pressures).
 This work provides the missing link between scientific computing and the information geometry of inequality constraints.
 CIGMO is a collaboration among Brown University, the Courant Institute at New York University, and Georgia Tech.
@@ -47,10 +47,12 @@ CIGMO includes technical thrusts:
 
 To maximize impact, CIGMO pursues two investment thrusts:
 
-- Development and integration with DOE codes (e.g., MFEM) and open-source software (including [MFC](https://github.com/mflowcode/mfc))
+- Development and integration with DOE codes (e.g., [MFEM](https://mfem.org/)) and open-source software (including [MFC](https://github.com/mflowcode/mfc))
 - Workforce development and community outreach to train a new generation of experts in information geometric mechanics.
 
 Two challenge problems catalyze convergence and integration of these thrusts:
 
 - Optimal design of architected materials and structures under extreme loading scenarios, including blast loading in a fully coupled fluid–structure interaction (FSI) environment.
 - Computation of quantities of interest—such as surface heating, thrust, and lift/drag—under extreme hypersonic conditions, using the HIFiRE‑5 and BOLT‑II geometries.
+
+Please subscribe to our [mailing list](https://forms.gle/y1raHaotdXgUXTi99) to be notified of future CIGMO events.

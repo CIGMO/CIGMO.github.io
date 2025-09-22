@@ -5,12 +5,10 @@ inline: true
 related_posts: false
 ---
 
-#### _CIGMO Seminar Series 1_
+#### _A priori error analysis of the proximal Galerkin method_
 
 - **Speaker**: [Rami Masri](https://ramimasri.github.io) (Brown University)
-
-- **Title**: A priori error analysis of the proximal Galerkin method
-
+<!-- - **Title**: A priori error analysis of the proximal Galerkin method -->
 - **Date**: September 24, 2025
 - **Time**: 11:00 -- 12:00 (EST)
 
