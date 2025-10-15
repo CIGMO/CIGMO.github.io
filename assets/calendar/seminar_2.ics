@@ -1,0 +1,72 @@
+BEGIN:VCALENDAR
+CALSCALE:GREGORIAN
+VERSION:2.0
+X-WR-CALNAME:CIGMO Seminar - Spencer Bryngelson
+METHOD:PUBLISH
+PRODID:-//Apple Inc.//macOS 15.6.1//EN
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+TZNAME:EDT
+TZOFFSETTO:-0400
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+TZNAME:EST
+TZOFFSETTO:-0500
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=America/New_York:20251029T120000
+UID:30173891-0693-4C33-9090-BBEE62C42F52
+DTSTAMP:20251015T150739Z
+LOCATION:https://brown.zoom.us/j/9011251684?omn=93423404156
+DESCRIPTION:CIGMO Seminar Series - 2\n\nTitle: Shocks without tracking o
+ r capturing: Exceeding 1 quadrillion degrees of freedom via inviscid reg
+ ularization of the compressible Navier-Stokes\nSpeaker: Spencer Bryngels
+ on\n\nAbstract:\nA method for solving multi-species and shock-laden flow
+  at unprecedented problem sizes and time-to-solution is presented. The f
+ irst inviscid regularization of the Navier-Stokes-like PDE is performed.
+  This enables linear and well-conditioned numerics suitable for mixed-pr
+ ecision computation. A unified memory implementation is crafted for tigh
+ tly coupled CPU-GPU and APU architectures (e.g.\, MI250X\, GH200\, MI300
+ A)\, now standard on flagship machines like El Capitan and Frontier. Wit
+ h this trio\, we improve on state-of-the-art CFD techniques with order o
+ f magnitude improvements along computational cost and memory footprint a
+ xes. The reduced memory footprint compared to baselines enables\, for ex
+ ample\, 25-times larger simulations\, here shown to exceed 1 quadrillion
+  degrees of freedom (200T grid points) with per-grid-point cost speedups
+ . The method strong scales from 8 nodes to the full systems (>10K nodes)
+  with better than 50% efficiency. This enables\, for example\, a typical
+  200B grid point CFD simulation in less than one wall clock minute on OL
+ CF Frontier. Early results suggest increased robustness compared to ENO/
+ limiter-type shock capturing schemes for high-Mach flows and strong disc
+ ontinuities. Results are shown for a Mach 14 many-rocket-engine configur
+ ation that nominally matches the SpaceX Super Heavy.
+X-APPLE-CREATOR-IDENTITY:com.apple.calendar
+STATUS:CONFIRMED
+SEQUENCE:1
+SUMMARY:CIGMO Seminar - Spencer Bryngelson
+DTSTART;TZID=America/New_York:20251029T110000
+LAST-MODIFIED:20251015T150416Z
+CREATED:20251015T150415Z
+X-APPLE-CREATOR-TEAM-IDENTITY:0000000000
+BEGIN:VALARM
+UID:560E4484-7AA1-41B8-9E3D-64C596CBB1C2
+X-WR-ALARMUID:560E4484-7AA1-41B8-9E3D-64C596CBB1C2
+TRIGGER:-PT10M
+DESCRIPTION:This is an event reminder
+ACTION:DISPLAY
+END:VALARM
+BEGIN:VALARM
+TRIGGER;VALUE=DATE-TIME:19760401T005545Z
+ACTION:NONE
+END:VALARM
+END:VEVENT
+END:VCALENDAR
