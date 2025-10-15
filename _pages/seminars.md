@@ -9,5 +9,4 @@ CIGMO seminars will be held in a hybrid format, with options for both in-person 
 
 Please subscribe to our [mailing list](https://forms.gle/y1raHaotdXgUXTi99) to be notified of future events in the seminar series.
 
-
 {% include news.liquid %}
