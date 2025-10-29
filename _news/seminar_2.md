@@ -19,3 +19,5 @@ related_posts: false
 
 - **Zoom**: [Zoom Link](https://brown.zoom.us/j/92988066475?pwd=xhn5ibHydwlXsnGdLyHGWwXsBUGaac.1)
 - [**Add to Calendar**](/assets/calendar/seminar_2.ics)
+
+- **Recordings**: [Zoom Recording](https://brown.zoom.us/rec/share/qua3uVq6jZ2Wo_Je0LTxY93r0obFPyXCztp7H-qX724fGB92emDIiCSBFBxzkv4B.fQR0TLetOYzjUpOw?startTime=1761750194000)
