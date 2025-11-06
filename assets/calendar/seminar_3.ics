@@ -1,0 +1,88 @@
+BEGIN:VCALENDAR
+CALSCALE:GREGORIAN
+VERSION:2.0
+X-WR-CALNAME:CIGMO Seminar Series
+METHOD:PUBLISH
+PRODID:-//Apple Inc.//macOS 15.6.1//EN
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+TZNAME:EDT
+TZOFFSETTO:-0400
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+TZNAME:EST
+TZOFFSETTO:-0500
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=America/New_York:20251107T120000
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-APPLE-MAPKIT-HANDLE=CAEStgII2TIa
+ EgntUAO8u+lEQBGEglK0ctlRwCKdAQoNVW5pdGVkIFN0YXRlcxICVVMaDFJob2RlIElzbGFu
+ ZCICUkkqEVByb3ZpZGVuY2UgQ291bnR5MgpQcm92aWRlbmNlOgUwMjkxMkIMQ29sbGVnZSBI
+ aWxsUgdIb3BlIFN0WgMxNzBiEzE3MCBIb3BlIFN0LCBSbSAxMDhyEEJyb3duIFVuaXZlcnNp
+ dHmKAQxDb2xsZWdlIEhpbGwqEzE3MCBIb3BlIFN0LCBSbSAxMDgyCzE3MCBIb3BlIFN0MgZS
+ bSAxMDgyFVByb3ZpZGVuY2UsIFJJICAwMjkxMjINVW5pdGVkIFN0YXRlczg5QABQAVonCiUS
+ EgntUAO8u+lEQBGEglK0ctlRwBjZMiDryOOj+O//uLUBkAMB;X-APPLE-RADIUS=70.58733
+ 250719671;X-APPLE-REFERENCEFRAME=1;X-TITLE="170 Hope St Room 108, Provid
+ ence, RI\nhttps://brown.zoom.us/j/99596594185?pwd=jOoshVgvAbX6xSWR7ODaWn
+ spqU5SNX.1&jst=2":geo:41.826042,-71.397626
+UID:0A5C5D8B-8E9F-4EC2-82C6-51D6F6428C0A
+DTSTAMP:20251030T050108Z
+LOCATION:170 Hope St Room 108\, Providence\, RI\nhttps://brown.zoom.us/j
+ /99596594185?pwd=jOoshVgvAbX6xSWR7ODaWnspqU5SNX.1&jst=2
+DESCRIPTION:CIGMO Seminar Series\n\nSpeaker: Xiangxiong Zhang\nTitle: Ef
+ ficient optimization-based invariant-domain-preserving limiters for gas 
+ dynamics equations\nAbstract:\nI will present effective splitting method
+ s for implementing optimization-based limiters to enforce the invariant 
+ domain defined by positive density and positive internal energy. Both L2
+  and L1 norm minimization limiters will be considered. The key ingredien
+ ts include an efficient explicit formulation of the projection onto the 
+ invariant domain set\, and also proper applications of the classical Dou
+ glas-Rachford splitting and its more recent extension Davis-Yin splittin
+ g.\nSuch an optimization-based approach can be applied to many numerical
+  schemes to construct high order accurate\, globally conservative\, and 
+ invariant-domain-preserving schemes for compressible flow equations.\nAs
+  a demonstration\, we apply it to high order discontinuous Galerkin sche
+ mes with non-SSP Runge-Kutta and test it on demanding benchmarks to vali
+ date the robustness and performance.  Unlike L1 minimization in many oth
+ er applications\, the L1 minimization does not produce a significantly m
+ ore sparse solution than L2 minimization in this context of limiters. On
+  the other hand\, for special problems such as high speed astrophysical 
+ jets\, L1-norm limiter is triggered less during the time evolution than 
+ L2-norm limiter\, thus L1-norm limiter seems better for these problems.
+X-APPLE-CREATOR-IDENTITY:com.apple.calendar
+STATUS:CONFIRMED
+SEQUENCE:1
+SUMMARY:CIGMO Seminar Series
+DTSTART;TZID=America/New_York:20251107T110000
+LAST-MODIFIED:20251030T045949Z
+CREATED:20251030T045929Z
+X-APPLE-CREATOR-TEAM-IDENTITY:0000000000
+BEGIN:VALARM
+UID:A95A4298-5C2C-4886-BE25-F245258D68AC
+X-WR-ALARMUID:A95A4298-5C2C-4886-BE25-F245258D68AC
+TRIGGER:-PT1H
+DESCRIPTION:This is an event reminder
+ACTION:DISPLAY
+END:VALARM
+BEGIN:VALARM
+UID:2AE1E31B-53F8-4D3B-9D2A-1ECB37E51DFC
+X-WR-ALARMUID:2AE1E31B-53F8-4D3B-9D2A-1ECB37E51DFC
+TRIGGER:-P1D
+DESCRIPTION:This is an event reminder
+ACTION:DISPLAY
+END:VALARM
+BEGIN:VALARM
+TRIGGER;VALUE=DATE-TIME:19760401T005545Z
+ACTION:NONE
+END:VALARM
+END:VEVENT
+END:VCALENDAR
