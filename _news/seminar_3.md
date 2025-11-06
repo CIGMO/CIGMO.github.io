@@ -20,4 +20,3 @@ related_posts: false
 
 - **Zoom**: [Zoom Link](https://brown.zoom.us/j/99596594185?pwd=jOoshVgvAbX6xSWR7ODaWnspqU5SNX.1&jst=2)
 - [**Add to Calendar**](/assets/calendar/seminar_3.ics)
-
