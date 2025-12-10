@@ -1,0 +1,96 @@
+BEGIN:VCALENDAR
+CALSCALE:GREGORIAN
+VERSION:2.0
+X-WR-CALNAME:CIGMO Seminar Series
+METHOD:PUBLISH
+PRODID:-//Apple Inc.//macOS 15.6.1//EN
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+TZNAME:EDT
+TZOFFSETTO:-0400
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+TZNAME:EST
+TZOFFSETTO:-0500
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=America/New_York:20251210T120000
+UID:2ak704vjudpvlpbgnpb67t7l81@google.com
+DTSTAMP:20251210T142030Z
+X-APPLE-CREATOR-IDENTITY:com.apple.calendar
+DESCRIPTION:CIGMO Seminar Series\n\nTime: 11:00 EST\nSpeaker: Tzanio Kol
+ ev\nTitle: MFEM: Accelerating Efficient Solution of PDEs at Exascale\nAb
+ stract: \nHigh-order finite element methods provide a powerful framework
+  for solving partial differential equations on unstructured grids. These
+  methods are particularly well-suited for exascale architectures with GP
+ U accelerators\, where their efficiency and scalability rely on the adop
+ tion of partially assembled algorithms that reduce memory data motion. T
+ he matrix-free nature of partial assembly algorithms enables higher effi
+ ciency\, but also motivates new research in areas such as preconditionin
+ g and monotonicity. In this talk we review recent work on GPU-oriented a
+ lgorithms and software for high-order meshing\, discretizations and solv
+ ers\, and demonstrate their impact in several large-scale applications f
+ rom the US Department of Energy. Many of these developments have been in
+ corporated in  MFEM (https://mfem.org)\, a scalable library for high-ord
+ er finite element discretization of PDEs on general unstructured grids t
+ hat employs partial assembly and matrix-free algorithms to power a wide 
+ variety of HPC applications. In addition to discussing MFEM's capabiliti
+ es and algorithms\, we also report on some of the work in related projec
+ ts\, including high-order ALE compressible hydrodynamics in LLNL's BLAST
+  code\; GPU benchmarks from the Center for Efficient Exascale Discretiza
+ tions in the US Exascale Computing Project\; and the Cascadia project fo
+ r acoustic–gravity waves in tsunami modeling.\n\n-::~:~::~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-\nJoin Z
+ oom Meeting\nhttps://brown.zoom.us/j/99596594185?pwd=jOoshVgvAbX6xSWR7OD
+ aWnspqU5SNX.1&jst=2 (ID: 99596594185\, passcode: 071599)\n\nJoin by phon
+ e\n(US) +1 877-853-5247 (passcode: 071599)\n\nJoin using SIP\n9959659418
+ 5@zoomcrc.com (passcode: 071599)\n\nJoining instructions: https://www.go
+ ogle.com/url?q=https://applications.zoom.us/addon/invitation/detail?meet
+ ingUuid%3Dsfbk0kyHQe2u%252B2kDR9V2xA%253D%253D%26signature%3Dbd0da4722e2
+ 8ba3ea8792698749ab58544cdea032518c40d459341704121f70e%26v%3D1&sa=D&sourc
+ e=calendar&usg=AOvVaw3rBcSbYjWkEuEKLOo88Mdo\n\nMeeting host: <a href="ma
+ ilto:dohyun_kim@brown.edu" target="_blank">dohyun_kim@brown.edu</a><br /
+ ><br />Join Zoom Meeting: <br /><a href="https://www.google.com/url?q=ht
+ tps://brown.zoom.us/j/99596594185?pwd%3DjOoshVgvAbX6xSWR7ODaWnspqU5SNX.1
+ %26jst%3D2&amp\;sa=D&amp\;source=calendar&amp\;usg=AOvVaw18xLxK1lPp0uP57
+ YCPtyGm" target="_blank">https://brown.zoom.us/j/99596594185?pwd=jOoshVg
+ vAbX6xSWR7ODaWnspqU5SNX.1&amp\;jst=2</a>\n\nPlease do not edit this sect
+ ion.\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:
+ ~:~:~:~:~:~:~::~:~::-
+STATUS:CONFIRMED
+SEQUENCE:0
+SUMMARY:CIGMO Seminar Series
+DTSTART;TZID=America/New_York:20251210T110000
+LAST-MODIFIED:20251209T164207Z
+CREATED:20251029T164914Z
+X-APPLE-CREATOR-TEAM-IDENTITY:0000000000
+BEGIN:VALARM
+UID:679A962C-9A7D-4D1B-B04E-D5FB6F96B25A
+X-WR-ALARMUID:679A962C-9A7D-4D1B-B04E-D5FB6F96B25A
+DESCRIPTION:This is an event reminder
+ACKNOWLEDGED:20251209T164207Z
+TRIGGER:-P1D
+ACTION:DISPLAY
+END:VALARM
+BEGIN:VALARM
+UID:FC592C36-C6FB-4C17-9865-7020FB43B1E5
+X-WR-ALARMUID:FC592C36-C6FB-4C17-9865-7020FB43B1E5
+TRIGGER:-PT1H
+DESCRIPTION:This is an event reminder
+ACTION:DISPLAY
+END:VALARM
+BEGIN:VALARM
+TRIGGER;VALUE=DATE-TIME:19760401T005545Z
+ACTION:NONE
+END:VALARM
+END:VEVENT
+END:VCALENDAR
