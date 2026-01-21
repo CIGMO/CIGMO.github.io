@@ -85,6 +85,11 @@ ninja.data = [{
           description: "Co-PI",
           section: "People",handler: () => {
               window.location.href = "/people/tao_molei/";
+            },},{id: "people-thomas-surowiec",
+          title: 'Thomas Surowiec',
+          description: "Co-PI",
+          section: "People",handler: () => {
+              window.location.href = "/people/thomas_surowiec/";
             },},{
         id: 'social-email',
         title: 'email',
