@@ -35,7 +35,12 @@ ninja.data = [{
           section: "News",},{id: "news-mfem-accelerating-efficient-solution-of-pdes-at-exascale-speaker-tzanio-kolev-lawrence-livermore-national-laboratory-date-december-10-2025-time-11-00-12-00-est-abstract-high-order-finite-element-methods-provide-a-powerful-framework-for-solving-partial-differential-equations-on-unstructured-grids-these-methods-are-particularly-well-suited-for-exascale-architectures-with-gpu-accelerators-where-their-efficiency-and-scalability-rely-on-the-adoption-of-partially-assembled-algorithms-that-reduce-memory-data-motion-the-matrix-free-nature-of-partial-assembly-algorithms-enables-higher-efficiency-but-also-motivates-new-research-in-areas-such-as-preconditioning-and-monotonicity-in-this-talk-we-review-recent-work-on-gpu-oriented-algorithms-and-software-for-high-order-meshing-discretizations-and-solvers-and-demonstrate-their-impact-in-several-large-scale-applications-from-the-us-department-of-energy-many-of-these-developments-have-been-incorporated-in-mfem-https-mfem-org-a-scalable-library-for-high-order-finite-element-discretization-of-pdes-on-general-unstructured-grids-that-employs-partial-assembly-and-matrix-free-algorithms-to-power-a-wide-variety-of-hpc-applications-in-addition-to-discussing-mfem-s-capabilities-and-algorithms-we-also-report-on-some-of-the-work-in-related-projects-including-high-order-ale-compressible-hydrodynamics-in-llnl-s-blast-code-gpu-benchmarks-from-the-center-for-efficient-exascale-discretizations-in-the-us-exascale-computing-project-and-the-cascadia-project-for-acoustic-gravity-waves-in-tsunami-modeling-location-virtual-zoom-zoom-zoom-link-add-to-calendar-recordings-zoom-recording",
           title: 'MFEM: Accelerating Efficient Solution of PDEs at Exascale Speaker: Tzanio Kolev (Lawrence Livermore...',
           description: "",
-          section: "News",},{id: "people-yuri-bazilevs",
+          section: "News",},{id: "people-alex-albors",
+          title: 'Alex Albors',
+          description: "PhD student",
+          section: "People",handler: () => {
+              window.location.href = "/people/albors_alex/";
+            },},{id: "people-yuri-bazilevs",
           title: 'Yuri Bazilevs',
           description: "Co-PI",
           section: "People",handler: () => {
@@ -55,6 +60,11 @@ ninja.data = [{
           description: "Postdoctoral Researcher",
           section: "People",handler: () => {
               window.location.href = "/people/dohyun_kim/";
+            },},{id: "people-brook-eyob",
+          title: 'Brook Eyob',
+          description: "PhD Student",
+          section: "People",handler: () => {
+              window.location.href = "/people/eyob_brook/";
             },},{id: "people-brendan-keith",
           title: 'Brendan Keith',
           description: "Director",
@@ -90,6 +100,11 @@ ninja.data = [{
           description: "Co-PI",
           section: "People",handler: () => {
               window.location.href = "/people/thomas_surowiec/";
+            },},{id: "people-david-winters",
+          title: 'David Winters',
+          description: "PhD student",
+          section: "People",handler: () => {
+              window.location.href = "/people/winters_david/";
             },},{
         id: 'social-email',
         title: 'email',
