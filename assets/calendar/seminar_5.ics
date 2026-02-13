@@ -1,0 +1,79 @@
+BEGIN:VCALENDAR
+CALSCALE:GREGORIAN
+VERSION:2.0
+X-WR-CALNAME:CIGMO Seminar Series - Drew P. Kouri
+METHOD:PUBLISH
+PRODID:-//Apple Inc.//macOS 15.6.1//EN
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+TZNAME:EDT
+TZOFFSETTO:-0400
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+TZNAME:EST
+TZOFFSETTO:-0500
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+CREATED:20260213T155345Z
+DTEND;TZID=America/New_York:20260223T120000
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+UID:7qqrn4og3ad6vkbgsu2gb55cvs@google.com
+DTSTART;TZID=America/New_York:20260223T110000
+LAST-MODIFIED:20260213T155357Z
+DTSTAMP:20260213T155602Z
+SUMMARY:CIGMO Seminar Series - Drew P. Kouri
+SEQUENCE:0
+DESCRIPTION:Speaker: Drew P. Kouri\, Sandia National Laboratories\nTitle
+ : An Inexact Trust-Region Method for Nonsmooth PDE-Constrained Optimizat
+ ion\n\nAbstract: Optimization problems constrained by partial differenti
+ al equations (PDEs) are ubiquitous in science and engineering\, arising 
+ as optimal control\, design and inverse problems. These problems are not
+ oriously challenging to solve numerical. For example\, simply evaluating
+  the objective function requires solving a large-scale system of equatio
+ ns resulting from the discretized PDEs. This exorbitant cost necessitate
+ s the use of rapidly converging optimization routines to reduce the numb
+ er of evaluations of the objective function and its derivatives. Unfortu
+ nately\, this expense is exacerbated when the objective function involve
+ s nonsmooth terms such sparsifying regularizers. Traditional nonsmooth o
+ ptimization methods converge (sub)linearly\, often requiring many iterat
+ ions to achieve marginal accuracy. In this talk\, we discuss a proximal 
+ trust-region Newton method for minimizing the sum of a smooth nonconvex 
+ function and a nonsmooth convex function in Hilbert space. Our method is
+  unique in that it permits and systematically controls inexact objective
+  function and derivative evaluations. We prove global convergence of our
+  method and establish\, under mild assumptions\, that it converges super
+ linearly\, even quadratically. We demonstrate the efficiency of our algo
+ rithm on various examples from PDE-constrained optimization.\n\n-::~:~::
+ ~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:
+ :~:~::-\nJoin Zoom Meeting\nhttps://brown.zoom.us/j/9011251684?omn=97801
+ 700506&jst=2 (ID: 9011251684)\n\nJoin by phone\n(US) +1 877-853-5247\n\n
+ Join using SIP\n9011251684@zoomcrc.com\n\nJoining instructions: https://
+ www.google.com/url?q=https://applications.zoom.us/addon/invitation/detai
+ l?meetingUuid%3DCzvek5oiTOuYTP7eoI8cRw%253D%253D%26signature%3Dfa57fc8ea
+ 75de99e257a20c61d4fcb0b00c4d43b297f9538946e31d12b43e817%26v%3D1&sa=D&sou
+ rce=calendar&usg=AOvVaw26UVIV1a4wEDewuclfJuXW\n\nMeeting host: <a href="
+ mailto:dohyun_kim@brown.edu" target="_blank">dohyun_kim@brown.edu</a><br
+  /><br />Join Zoom Meeting: <br /><a href="https://www.google.com/url?q=
+ https://brown.zoom.us/j/9011251684?omn%3D97801700506%26jst%3D2&amp\;sa=D
+ &amp\;source=calendar&amp\;usg=AOvVaw3d7zxMvl64Ss7nTt51vnax" target="_bl
+ ank">https://brown.zoom.us/j/9011251684?omn=97801700506&amp\;jst=2</a>\n
+ \nPlease do not edit this section.\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:
+ ~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+BEGIN:VALARM
+UID:CDA06C1C-B882-442D-8CA4-C646DE997B04
+X-WR-ALARMUID:CDA06C1C-B882-442D-8CA4-C646DE997B04
+TRIGGER:-PT10M
+DESCRIPTION:This is an event reminder
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+END:VCALENDAR
