@@ -1,0 +1,67 @@
+BEGIN:VCALENDAR
+CALSCALE:GREGORIAN
+VERSION:2.0
+X-WR-CALNAME:CIGMO Seminar Series - Oliver Gross
+METHOD:PUBLISH
+PRODID:-//Apple Inc.//macOS 15.6.1//EN
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+TZNAME:EDT
+TZOFFSETTO:-0400
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+TZNAME:EST
+TZOFFSETTO:-0500
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+CREATED:20260223T213050Z
+DTEND;TZID=America/New_York:20260309T120000
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+UID:1l63jna6ppahtfrf3j78nr3pb9@google.com
+DTSTART;TZID=America/New_York:20260309T110000
+LAST-MODIFIED:20260223T213056Z
+DTSTAMP:20260223T213249Z
+SUMMARY:CIGMO Seminar Series - Oliver Gross
+SEQUENCE:0
+DESCRIPTION:Speaker: Oliver Gross\, University of California\, San Diego
+ \nTitle: Geometric Methods for Physics Simulation\n\nAbstract: Physical 
+ laws governing phenomena such as swirling water or snake locomotion aris
+ e from the symmetries of the universe\, while tangles\, knots\, and brai
+ ds appear as recurring motifs across scales in physics\, chemistry\, and
+  biology—from coiled DNA strands to magnetic field lines shaping solar c
+ oronal loops. Understanding the geometric and topological structures inh
+ erent in these systems is crucial for developing efficient and faithful 
+ simulation tools. In this talk\, I will outline how to craft solar atmos
+ pheres\, tie knots in plasma\, and optimize a snake’s slithering motion\
+ , all in the language of conformal and sub-Riemannian geometry. Beyond g
+ eometric modeling\, I will show how these perspectives can naturally lea
+ d to structure-preserving algorithms that bridge mathematics\, physics\,
+  and computation.\n\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-\nJoin Zoom Meeting\nhttps://brown.z
+ oom.us/j/9011251684?pwd=5mZNPYbleyTlsQb6hxqD3oPdqcehaS.1&omn=97859086771
+ &jst=2 (ID: 9011251684\, passcode: 171236)\n\nJoin by phone\n(US) +1 877
+ -853-5247 (passcode: 171236)\n\nJoin using SIP\n9011251684@zoomcrc.com (
+ passcode: 171236)\n\nJoining instructions: https://www.google.com/url?q=
+ https://applications.zoom.us/addon/invitation/detail?meetingUuid%3DqHgKc
+ cu3QJyvJD6%252FBuKgaA%253D%253D%26signature%3Dbf8bcf43ad29d5c271c6de9294
+ 729832ff4393722a23f56578c5599595c3e24d%26v%3D1&sa=D&source=calendar&usg=
+ AOvVaw2dyRM-ouKVQ9pTn6yvCmnD\n\nMeeting host: <a href="mailto:dohyun_kim
+ @brown.edu" target="_blank">dohyun_kim@brown.edu</a><br /><br />Join Zoo
+ m Meeting: <br /><a href="https://www.google.com/url?q=https://brown.zoo
+ m.us/j/9011251684?pwd%3D5mZNPYbleyTlsQb6hxqD3oPdqcehaS.1%26omn%3D9785908
+ 6771%26jst%3D2&amp\;sa=D&amp\;source=calendar&amp\;usg=AOvVaw3qLEibk5Ws4
+ 53defNE5xFx" target="_blank">https://brown.zoom.us/j/9011251684?pwd=5mZN
+ PYbleyTlsQb6hxqD3oPdqcehaS.1&amp\;omn=97859086771&amp\;jst=2</a>\n\nPlea
+ se do not edit this section.\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:
+ ~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+END:VEVENT
+END:VCALENDAR
