@@ -56,6 +56,11 @@ ninja.data = [{
           description: "Co-PI",
           section: "People",handler: () => {
               window.location.href = "/people/bryngelson_spencer/";
+            },},{id: "people-ed-chen",
+          title: 'Ed Chen',
+          description: "PhD student",
+          section: "People",handler: () => {
+              window.location.href = "/people/chen_ed/";
             },},{id: "people-jerome-darbon",
           title: 'Jerome Darbon',
           description: "Co-PI",
