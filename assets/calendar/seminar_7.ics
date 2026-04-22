@@ -1,0 +1,71 @@
+BEGIN:VCALENDAR
+CALSCALE:GREGORIAN
+VERSION:2.0
+X-WR-CALNAME:CIGMO Seminar Series - Ilaria Perugia
+METHOD:PUBLISH
+PRODID:-//Apple Inc.//macOS 15.6.1//EN
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+TZNAME:EDT
+TZOFFSETTO:-0400
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+TZNAME:EST
+TZOFFSETTO:-0500
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+CREATED:20260422T134928Z
+DTEND;TZID=America/New_York:20260504T120000
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+UID:78i1pc4ljli1a3ksia593vdr1u@google.com
+DTSTART;TZID=America/New_York:20260504T110000
+LAST-MODIFIED:20260422T134938Z
+DTSTAMP:20260422T135119Z
+SUMMARY:CIGMO Seminar Series - Ilaria Perugia
+SEQUENCE:0
+DESCRIPTION:Speaker: Ilaria Perugia\, University of Vienna\nTitle: Struc
+ ture-preserving numerical approximation of nonlinear reaction-diffusion 
+ systems\n\nAbstract: Applications in physics\, biology\, and chemistry o
+ ften involve PDE systems with multiple interacting components\, such as 
+ gas mixtures\, competing populations\, or chemical reactants. These are 
+ modeled by nonlinear reaction-diffusion systems. Their numerical approxi
+ mation is challenging due to nonlinearity\, coupling\, the need to prese
+ rve positivity and boundedness\, and often a non-positive definite diffu
+ sion matrix. Motivated by the boundedness-by-entropy framework introduce
+ d by A. Jüngel in 2015\, we present numerical methods based on nonlinear
+  transformations involving entropy variables\, which ensure positivity a
+ nd boundedness of solutions. We focus on the local discontinuous Galerki
+ n method\, where auxiliary variables help reformulate the problem so tha
+ t nonlinearities do not appear under differential operators and interfac
+ e terms. This allows for a parallel evaluation of nonlinear operators\, 
+ supports high-order accuracy\, and provides discrete entropy stability.T
+ hese results were obtained in collaboration with P.F. Antonietti\, M. Co
+ rti\, S. Gómes\, and A. Jüngel.\n\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-\nJoin Zoom Meeting\nh
+ ttps://brown.zoom.us/j/9011251684?pwd=5mZNPYbleyTlsQb6hxqD3oPdqcehaS.1&o
+ mn=92982336625&jst=2 (ID: 9011251684\, passcode: 171236)\n\nJoin by phon
+ e\n(US) +1 877-853-5247 (passcode: 171236)\n\nJoin using SIP\n9011251684
+ @zoomcrc.com (passcode: 171236)\n\nJoining instructions: https://www.goo
+ gle.com/url?q=https://applications.zoom.us/addon/invitation/detail?meeti
+ ngUuid%3DqQh9DsxuRPWdLEZaNjcw%252BQ%253D%253D%26signature%3Db23642c2d860
+ 2ff9f19a0dd61f2fb2b7122af4da9db5212028cc6463332cdac7%26v%3D1&sa=D&source
+ =calendar&usg=AOvVaw2feflFCQUzGiABS00oeLM0\n\nMeeting host: <a href="mai
+ lto:dohyun_kim@brown.edu" target="_blank">dohyun_kim@brown.edu</a><br />
+ <br />Join Zoom Meeting: <br /><a href="https://www.google.com/url?q=htt
+ ps://brown.zoom.us/j/9011251684?pwd%3D5mZNPYbleyTlsQb6hxqD3oPdqcehaS.1%2
+ 6omn%3D92982336625%26jst%3D2&amp\;sa=D&amp\;source=calendar&amp\;usg=AOv
+ Vaw1yohF4eOMR7qAZYl9geu_l" target="_blank">https://brown.zoom.us/j/90112
+ 51684?pwd=5mZNPYbleyTlsQb6hxqD3oPdqcehaS.1&amp\;omn=92982336625&amp\;jst
+ =2</a>\n\nPlease do not edit this section.\n-::~:~::~:~:~:~:~:~:~:~:~:~:
+ ~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+END:VEVENT
+END:VCALENDAR
