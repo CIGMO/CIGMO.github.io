@@ -49,11 +49,21 @@ ninja.data = [{
           description: "PhD student",
           section: "People",handler: () => {
               window.location.href = "/people/albors_alex/";
+            },},{id: "people-alexey-izmailov",
+          title: 'Alexey Izmailov',
+          description: "PhD student",
+          section: "People",handler: () => {
+              window.location.href = "/people/alexey_izmailov/";
             },},{id: "people-yuri-bazilevs",
           title: 'Yuri Bazilevs',
           description: "Co-PI",
           section: "People",handler: () => {
               window.location.href = "/people/bazilevs_yuri/";
+            },},{id: "people-biswajit-khara",
+          title: 'Biswajit Khara',
+          description: "Postdoctoral Researcher",
+          section: "People",handler: () => {
+              window.location.href = "/people/biswajit_khara/";
             },},{id: "people-spencer-bryngelson",
           title: 'Spencer Bryngelson',
           description: "Co-PI",
