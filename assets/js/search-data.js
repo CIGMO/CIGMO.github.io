@@ -89,6 +89,11 @@ ninja.data = [{
           description: "PhD Student",
           section: "People",handler: () => {
               window.location.href = "/people/eyob_brook/";
+            },},{id: "people-ian-russell",
+          title: 'Ian Russell',
+          description: "PhD Student",
+          section: "People",handler: () => {
+              window.location.href = "/people/ian_russell/";
             },},{id: "people-brendan-keith",
           title: 'Brendan Keith',
           description: "Director",
