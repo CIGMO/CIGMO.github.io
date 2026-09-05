@@ -104,6 +104,11 @@ ninja.data = [{
           description: "PhD Student",
           section: "People",handler: () => {
               window.location.href = "/people/noe_reyes_rivas/";
+            },},{id: "people-yulong-lewis-pan",
+          title: 'Yulong (Lewis) Pan',
+          description: "Postdoctoral Researcher",
+          section: "People",handler: () => {
+              window.location.href = "/people/pan_yulong/";
             },},{id: "people-rami-masri",
           title: 'Rami Masri',
           description: "Postdoctoral Researcher",
