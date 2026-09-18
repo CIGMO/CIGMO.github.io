@@ -54,6 +54,11 @@ ninja.data = [{
           description: "PhD student",
           section: "People",handler: () => {
               window.location.href = "/people/alexey_izmailov/";
+            },},{id: "people-anna-ernst",
+          title: 'Anna Ernst',
+          description: "MS student",
+          section: "People",handler: () => {
+              window.location.href = "/people/anna_ernst/";
             },},{id: "people-yuri-bazilevs",
           title: 'Yuri Bazilevs',
           description: "Co-PI",
