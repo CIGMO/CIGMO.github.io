@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-publications",
           title: "publications",
-          description: "publications by CIGMO members acknowledging support from the PSAAP-IV Focused Investigatory Center (DOE/NNSA Award DE-NA0004261), in reverse chronological order",
+          description: "Publications and other artifacts supported by CIGMO, in reverse chronological order. Names of CIGMO members are underlined.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
