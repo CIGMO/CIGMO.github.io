@@ -200,7 +200,6 @@ exclude:
   - _posts/
   - _pages/profiles
   - _pages/repositories
-  - _pages/publications
   - _pages/blog
   - _pages/teaching
   - _pages/projects
@@ -281,8 +280,9 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  # CIGMO senior personnel, emphasized in the author lists on the publications page
+  last_name: [Keith, Schäfer, Schaefer, Bazilevs, Bryngelson, Darbon, Tang, Tao, Surowiec]
+  first_name: [Brendan, B., Florian, F., Yuri, Y., Spencer, S., Spencer H., Jérôme, Jerome, J., Qi, Q., Molei, M., Thomas, T., Thomas M.]
 
   style: apa
   locale: en
