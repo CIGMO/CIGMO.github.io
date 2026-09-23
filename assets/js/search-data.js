@@ -23,6 +23,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/seminars/";
           },
+        },{id: "nav-publications",
+          title: "publications",
+          description: "publications by CIGMO members acknowledging support from the PSAAP-IV Focused Investigatory Center (DOE/NNSA Award DE-NA0004261), in reverse chronological order",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/publications/";
+          },
         },{id: "news-a-priori-error-analysis-of-the-proximal-galerkin-method-speaker-rami-masri-brown-university-date-september-24-2025-time-11-00-12-00-est-abstract-the-proximal-galerkin-pg-method-is-a-finite-element-method-for-solving-variational-problems-with-inequality-constraints-it-has-several-advantages-including-constraint-preserving-approximations-and-mesh-independence-this-talk-presents-the-first-abstract-a-priori-error-analysis-of-the-pg-method-providing-a-general-framework-to-establish-convergence-and-error-estimates-as-applications-of-the-framework-we-demonstrate-optimal-convergence-rates-for-both-the-obstacle-and-signorini-problems-using-various-finite-element-subspaces-location-170-hope-st-room-108-providence-ri-zoom-zoom-link-add-to-calendar",
           title: 'A priori error analysis of the proximal Galerkin method Speaker: Rami Masri (Brown...',
           description: "",
