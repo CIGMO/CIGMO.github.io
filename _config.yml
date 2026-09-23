@@ -280,9 +280,38 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  # CIGMO senior personnel, emphasized in the author lists on the publications page
-  last_name: [Keith, Schäfer, Schaefer, Bazilevs, Bryngelson, Darbon, Tang, Tao, Surowiec]
-  first_name: [Brendan, B., Florian, F., Yuri, Y., Spencer, S., Spencer H., Jérôme, Jerome, J., Qi, Q., Molei, M., Thomas, T., Thomas M.]
+  # CIGMO members ("First Last", as written in papers.bib), underlined in the author lists on the publications page
+  members:
+    # senior personnel
+    [
+      Brendan Keith,
+      Florian Schäfer,
+      Florian Schaefer,
+      Yuri Bazilevs,
+      Spencer Bryngelson,
+      Spencer H. Bryngelson,
+      Jerome Darbon,
+      Jérôme Darbon,
+      Qi Tang,
+      Molei Tao,
+      Thomas Surowiec,
+      Thomas M. Surowiec,
+      # students and postdocs
+      Alex Albors,
+      Alexey Izmailov,
+      Biswajit Khara,
+      Ed Chen,
+      Edward Chen,
+      Dohyun Kim,
+      Brook Eyob,
+      Ian Russell,
+      Noe Reyes Rivas,
+      Noé Reyes Rivas,
+      Yulong Pan,
+      Rami Masri,
+      David Winters,
+      Anna Ernst,
+    ]
 
   style: apa
   locale: en
