@@ -46,6 +46,13 @@ STOPWORDS = {"a", "an", "the", "of", "for", "on", "in", "and", "with", "to"}
 # Papers checked by hand and left out of papers.bib on purpose (arXiv id, DOI, or title -> reason)
 EXCLUDED = {
     "10.1090/mcom/4218": "Crossref lists DE-NA0004261, but the paper does not seem to acknowledge PSAAP",
+    # Molei Tao papers acknowledging DE-NA0004261 that were left out on request (2026-09-24)
+    "2509.25171": "TR2-D2, left out on request",
+    "10.1016/j.spa.2025.104763": "Essential barrier height, left out on request",
+    "2301.01447": "Essential barrier height (arXiv), left out on request",
+    "2509.16499": "A Closer Look at Model Collapse, left out on request",
+    "2508.10684": "MDNS, left out on request",
+    "2507.08965": "Improving Classifier-Free Guidance in Masked Diffusion, left out on request",
 }
 
 
