@@ -1,0 +1,75 @@
+BEGIN:VCALENDAR
+CALSCALE:GREGORIAN
+VERSION:2.0
+X-WR-CALNAME:CIGMO Seminar Series - Ioannis P. A. Papadopoulos
+METHOD:PUBLISH
+PRODID:-//Apple Inc.//macOS 26.6.2//EN
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+TZNAME:EDT
+TZOFFSETTO:-0400
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+TZNAME:EST
+TZOFFSETTO:-0500
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+CREATED:20260924T210352Z
+DTEND;TZID=America/New_York:20261005T120000
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+UID:706fe9qm5odrda2jtn48erdt9u@google.com
+DTSTART;TZID=America/New_York:20261005T110000
+LAST-MODIFIED:20260925T021128Z
+DTSTAMP:20260925T021216Z
+SUMMARY:CIGMO Seminar Series - Ioannis P. A. Papadopoulos
+SEQUENCE:0
+DESCRIPTION:Speaker: Ioannis P. A. Papadopoulos\nTitle: Mesh-dependent i
+ teration count growth in primal-dual active set strategies\n\nAbstract: 
+ Quadratic programming problems often arise in mathematical models\, and 
+ primal-dual active set (PDAS) strategies provide a highly effective algo
+ rithm for their solution. For finite-dimensional problems\, an equivalen
+ ce between PDAS and semismooth Newton methods was established in 2002\, 
+ explaining the fast local superlinear convergence observed for these met
+ hods. This connection has also been shown to hold for certain infinite-d
+ imensional problems\, such as optimal control problems with control cons
+ traints.\n\nOn the other hand\, PDAS is not a semismooth Newton method w
+ hen applied to the infinite-dimensional obstacle problem. It is neverthe
+ less a semismooth Newton method for any finite-dimensional discretizatio
+ n\, and local superlinear convergence is therefore observed in practice.
+  But there is a catch: with each uniform refinement of the mesh\, the nu
+ mber of iterations required for convergence grows dramatically\, eventua
+ lly doubling with each refinement.\n\nThis phenomenon has been occasiona
+ lly noted in the literature but never fully investigated. In this talk\,
+  we provide a detailed explanation of why this mesh-dependent behaviour 
+ occurs. We also investigate PDAS applied to the Signorini problem\, wher
+ e the convergence behaviour is also mesh-dependent but fundamentally dif
+ ferent from that of the obstacle problem.\n\nPreprint: https://arxiv.org
+ /abs/2607.26622.\n\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:
+ ~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-\nJoin Zoom Meeting\nhttps://brown.zo
+ om.us/j/9011251684?pwd=5mZNPYbleyTlsQb6hxqD3oPdqcehaS.1&omn=98211733179&
+ jst=2 (ID: 9011251684\, passcode: 171236)\n\nJoin by phone\n(US) +1 877-
+ 853-5247 (passcode: 171236)\n\nJoin using SIP\n9011251684@zoomcrc.com (p
+ asscode: 171236)\n\nJoining instructions: https://www.google.com/url?q=h
+ ttps://applications.zoom.us/addon/invitation/detail?meetingUuid%3DHVuIHI
+ p8RN%252Baxtk9qoE9GA%253D%253D%26signature%3D9871784a0641ed0b6f670a41aa5
+ a9e499f4272cf8a5e54017fa493e06dcfc525%26v%3D1&sa=D&source=calendar&usg=A
+ OvVaw029aER9K7_td4hnVEJDozi\n\nMeeting host: <a href="mailto:dohyun_kim@
+ brown.edu" target="_blank">dohyun_kim@brown.edu</a><br /><br />Join Zoom
+  Meeting: <br /><a href="https://www.google.com/url?q=https://brown.zoom
+ .us/j/9011251684?pwd%3D5mZNPYbleyTlsQb6hxqD3oPdqcehaS.1%26omn%3D98211733
+ 179%26jst%3D2&amp\;sa=D&amp\;source=calendar&amp\;usg=AOvVaw0HiVlFUzvZtW
+ EvwTIQa_Wl" target="_blank">https://brown.zoom.us/j/9011251684?pwd=5mZNP
+ YbleyTlsQb6hxqD3oPdqcehaS.1&amp\;omn=98211733179&amp\;jst=2</a>\n\nPleas
+ e do not edit this section.\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+END:VEVENT
+END:VCALENDAR
